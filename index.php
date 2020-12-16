@@ -32,6 +32,7 @@
                                 <h5>
                                     <?php $mydate=getdate(date("U"));
                                     echo "$mydate[weekday], $mydate[month] $mydate[mday], $mydate[year]";
+                                    echo "<h4> Absen Hanya Tersedia Di Jam 08.00 - 10.00 WITA <h4>";
                                     ?>
                                 </h5>
                             </center><br>
