@@ -6,6 +6,7 @@
     <head>
         <link rel="stylesheet" href="mycss.css">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <title>Laporan</title>
     </head>
     <body">
         <div class="admin">

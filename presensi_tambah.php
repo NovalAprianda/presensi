@@ -14,7 +14,7 @@ if(!empty($_POST['absen'])) {
 	}
 	$result = $stmt->execute(array(":NIP"=>$_POST['NIP'],':tanggal'=>$date, ':time_in'=>$time, ':keterangan'=>$ket));
 	if (!empty($result)){
-	  header('location:index.php');
+	  echo"<script>alert('Anda telah Berhasil Absensi');document.location='index.php'</script>";
 	}
 	else{
 		echo"<script>alert('NIP tidak sesuai, silakan masukkan NIP yang benar!');document.location='index.php'</script>";

@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="mycss.css">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <title>Beranda Admin</title>
     </head>
     <?php
     require_once("Koneksi.php");

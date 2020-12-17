@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="mycss.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <title>Edit Data</title>
 </head>
 <?php
 require_once("Koneksi.php");

@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="mycss.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <title>Login Admin</title>
 </head>
 <body>
     <div class="utama">

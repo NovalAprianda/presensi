@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="mycss.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <title>Tambah Data</title>
 </head>
 <?php
 require_once("Koneksi.php");
