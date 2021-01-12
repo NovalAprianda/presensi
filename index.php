@@ -33,7 +33,7 @@
                                 <h5>
                                     <?php $mydate=getdate(date("U"));
                                     echo "$mydate[weekday], $mydate[month] $mydate[mday], $mydate[year]";
-                                    echo "<h4> Absen Hanya Tersedia Di Jam 08.00 - 11.00 WITA <h4>";
+                                    echo "<h4> Absen Hanya Tersedia Di Jam 08.00 - 12.00 WITA <h4>";
                                     ?>
                                 </h5>
                             </center><br>
@@ -74,7 +74,7 @@
                         date_default_timezone_set("Singapore");
                         $t = date("H");
 
-                        if ($t >= "00" && $t <= "10") {
+                        if ($t >= "00" && $t <= "11") {
                             ?><input class="btn btn-warning" type="submit" value="Hadir" name="absen"><?php
                           } else {
                             ?><button class="btn btn-warning">Hadir</button>

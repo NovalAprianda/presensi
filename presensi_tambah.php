@@ -7,9 +7,9 @@ if(!empty($_POST['absen'])) {
 	$sql = "INSERT INTO presensi (NIP, tanggal, time_in, keterangan) VALUES (:NIP, :tanggal, :time_in, :keterangan)";
 	$stmt = $koneksi->prepare( $sql );
 	$t = date("H");
-	if ($t <= "08") {
+	if ($t <= "09") {
 	  $ket = "Hadir";
-	} else if ($t > "08") {
+	} else if ($t > "09") {
 	  $ket = "Terlambat";
 	}
 	$result = $stmt->execute(array(":NIP"=>$_POST['NIP'],':tanggal'=>$date, ':time_in'=>$time, ':keterangan'=>$ket));
